@@ -1,0 +1,39 @@
+.Home {
+    font-size: 1.6rem;
+    color: rgba(0,0,0,.7);
+    width: 54vw;
+    text-align: center;
+}
+
+.quickStart {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin: 40px 0;
+}
+
+.header {
+    text-align: left;
+    width: 650px;
+    font-weight: bold;
+    color: var(--color-accent);
+    margin: 10px 0;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+}
+
+.content-text {
+    margin: 10px 0;
+    line-height: 1.4rem;
+    font-size: 1.1rem;
+}
+
+.Docs {
+    margin: 40px 0;
+}

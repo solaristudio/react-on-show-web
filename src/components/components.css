@@ -1,0 +1,80 @@
+.Footer {
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    background-color: var(--color-accent);
+    color: white;
+    text-align: center;
+    user-select: none;
+}
+
+.Footer .org:hover {
+    cursor: pointer;
+}
+
+.NavigationBar {
+    background-color: var(--color-accent);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-radius: 4px;
+}
+
+.NavigationBar .link {
+    border-radius: 2px;
+    padding: 4px 12px;
+    background-color: var(--color-accent);
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    user-select: none;
+    margin: 0 64px;
+}
+
+.NavigationBar .link:hover {
+    color: var(--color-accent);
+    background-color: white;
+    cursor: pointer;
+}
+
+.NpmBar {
+    top: 30px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+
+.NpmBar .iconWrapper {
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border: 2px solid var(--color-accent);
+}
+
+.NpmBar .iconWrapper:hover {
+    cursor: pointer;
+}
+
+.Headline {
+    user-select: none;
+    text-align: center;
+    margin: 0 0 80px 0;
+}
+
+.Headline .title {
+    color: var(--color-accent);
+    font-size: 4rem;
+    margin-bottom: 4px;
+}
+
+.Headline .subtitle {
+    font-size: 1rem;
+    color: rgba(0,0,0,.7);
+}
+

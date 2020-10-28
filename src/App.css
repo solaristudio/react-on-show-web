@@ -1,0 +1,30 @@
+.App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.Body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4.2vw 10vw 0;
+}
+
+.componentView-enter {
+    opacity: 0;
+}
+
+.componentView-enter .componentView-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+
+.componentView-exit {
+    opacity: 1;
+}
+
+.componentView-exit .componentView-exit-active {
+    opacity: 0;
+    transition: opacity 300ms ease-in;
+}

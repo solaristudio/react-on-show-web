@@ -1,0 +1,48 @@
+.Mac {
+    display: inline-flex;
+    flex-direction: column;
+    box-shadow: 0 0 12px 4px rgba(0,0,0,0.1);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    overflow: hidden;
+}
+
+.Mac .bar {
+    padding: 0 10px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-macos);
+    height: 40px;
+}
+
+.Mac .bar .circle {
+    width: 16px;
+    height: 16px;
+    border-radius: 99px;
+    cursor: pointer;
+}
+
+.Mac .bar .m1 {
+    margin: 0 4px;
+}
+
+.Mac .bar .circle.red {
+    background: #ff622e;
+}
+
+.Mac .bar .circle.orange {
+    background: #ffa62e;
+}
+
+.Mac .bar .circle.green {
+    background: #55cc43;
+}
+
+.Mac .bar .address {
+    background-color: #f3f3f3;
+    padding: 2px 24px 2px 4px;
+    border-radius: 2px;
+    color: #616161;
+    font-size: 0.7rem;
+}
