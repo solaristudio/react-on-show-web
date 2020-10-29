@@ -37,3 +37,29 @@
 .Docs {
     margin: 40px 0;
 }
+
+@media screen and (max-width: 870px) {
+    .Home img {
+        width: 50vw;
+    }
+
+    .Home {
+        font-size: 1.4rem;
+    }
+
+    .quickStart {
+        margin: 0 0 40px 0;
+        width: 80%;
+        overflow: hidden;
+    }
+
+    .quickStart .TextArea {
+        font-size: 1.2rem !important;
+    }
+
+    .Docs {
+        width: 80%;
+        margin: 0 0 40px 0;
+        overflow: hidden;
+    }
+}

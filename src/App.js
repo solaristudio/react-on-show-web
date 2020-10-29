@@ -5,6 +5,7 @@ import Home from './components/pages/Home'
 import NavigationBar from './components/NavigationBar'
 import NpmBar from './components/NpmBar'
 import Footer from './components/Footer'
+import HamburgerMenu from './components/HamburgerMenu'
 
 function App() {
     const [currentPage, setCurrentPage] = useState(<Home />)
@@ -12,7 +13,12 @@ function App() {
         <>
             <div className={'App'}>
                 <div className={'Body'}>
+                    <div className={'vertical'} />
                     <Headline />
+                    <HamburgerMenu
+                        setCurrentPage={setCurrentPage}
+                        currentPage={currentPage}
+                    />
                     <NpmBar />
                     <NavigationBar
                         setCurrentPage={setCurrentPage}

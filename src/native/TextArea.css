@@ -11,3 +11,6 @@
 .TextArea:hover {
     background-color: rgba(4, 150, 255, 0.1);
 }
+
+@media screen and (max-width: 870px) {
+}

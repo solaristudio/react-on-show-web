@@ -11,20 +11,8 @@
     margin: 4.2vw 10vw 0;
 }
 
-.componentView-enter {
-    opacity: 0;
-}
-
-.componentView-enter .componentView-enter-active {
-    opacity: 1;
-    transition: opacity 500ms ease-in;
-}
-
-.componentView-exit {
-    opacity: 1;
-}
-
-.componentView-exit .componentView-exit-active {
-    opacity: 0;
-    transition: opacity 300ms ease-in;
+@media screen and (max-width: 870px) {
+    .Body {
+        margin: 4.2vw 4.2vw 0;
+    }
 }
